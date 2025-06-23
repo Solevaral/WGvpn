@@ -112,7 +112,7 @@ DNS = 1.1.1.1, 8.8.8.8
 [Peer]
 PublicKey = $(cat publickey)
 Endpoint = $PUBLIC_IP:$PORT
-AllowedIPs = 0.0.0.0/0
+AllowedIPs = 10.0.0.0/24
 PersistentKeepalive = 25
 EOF
 
